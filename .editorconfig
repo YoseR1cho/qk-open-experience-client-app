@@ -1,0 +1,20 @@
+# http://editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+spaces_around_operators = true      # 运算符两遍都有空格
+insert_final_newline = true
+
+[*.js]
+quotes = single
+
+[*.md]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
