@@ -1,3 +1,6 @@
 # README
 
-`@umijs/max` 模板项目，更多功能参考 [Umi Max 简介](https://umijs.org/docs/max/introduce)
+这是一个基于qiankun部署的react子应用，主要技术栈是react+umi4+dev数据流状态管理+antd Pro企业
+
+## 项目背景
+本来是uu一个战损版祖传项目，受限于编码年代（18年其实也没那么严重0.0）代码太陈旧了而且编码规范也不太ok，于是在学长的一番点拨之下决定为uu团队做点贡献，起了一个qiankun微前端进行项目重构，由于大多业务功能和代码结构还是没有变化，所以用原项目做了主应用，原项目是（umi2 + react16.8），由于umi内置的qiankun插件比较方便而且umi3到umi4代码变化不大，于是先将原项目升级到了umi3，然后衍生出了本项目，之后的原项目将通过qiankun一点一点被移到本项目上。
